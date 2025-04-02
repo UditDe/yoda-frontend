@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://uditde.github.io/yoda_frontend",
+  "homepage": "https://uditde.github.io/yoda-frontend",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "test": "echo \"No tests specified\" && exit 0",
