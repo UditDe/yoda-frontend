@@ -6,6 +6,7 @@
   "homepage": "https://uditde.github.io/yoda_frontend",
   "scripts": {
     "deploy": "gh-pages -d build",
+    "test": "echo \"No tests specified\" && exit 0",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
