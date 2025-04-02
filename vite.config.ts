@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: "dist"  // Ensure Vite builds to 'dist/'
-  }
+  },
+  base: "/yoda_frontend/" // Set base to match GitHub Pages URL
 })
