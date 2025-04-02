@@ -1,0 +1,92 @@
+.super_container {
+    display: flex;
+    flex-direction: column;
+    .home_section {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        padding: 72px;
+        background: var(--yellow1);
+        .headlines-btn {
+            display: flex;
+            flex-direction: column;
+            .headlines{
+                display: flex;
+                flex-direction: column;
+                width: fit-content;
+                color: var(--yellow3);
+                .head-one {
+                    font-weight: 700;
+                    font-size: 48px;
+                    line-height: 63px;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.01em;
+                    margin-bottom: 0;
+                }
+                .head-two {
+                    font-weight: 700;
+                    font-size: 84px;
+                    line-height: 95px;
+                    /* or 113% */
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.01em;
+                    margin-top: 0;
+                }
+            }
+            .hero-btn{
+                width: 248px;
+                height: 72px;
+                background: var(--yellow2);
+                color: var(--yellow3);
+                font-style: normal;
+                font-weight: 700;
+                font-size: 26px;
+                line-height: 34px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: 0.01em;
+                border: none;
+                justify-content: center;
+
+
+                cursor: pointer;
+                transition: background-color 0.5s ease-in-out; // Smooth transition
+                &:hover {
+                    background-color: var(--yellow3); // Change to a different color on hover
+                    color: var(--yellow1); // Change to a different color on hover
+                }
+            }
+        }
+        .image-container{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 720px; // Adjust size as needed
+            height: auto;
+
+            img {
+                width: 100%; // Ensures responsiveness
+                height: auto;
+            }
+        }
+    }
+    .about_section{
+        width: 100vw;
+        height: 100vh;
+        background: var(--yellow2);
+    }
+    .work_flow_section{
+        width: 100vw;
+        height: 100vh;
+        background: var(--yellow3);
+    }
+    .analyze_section{
+        width: 100vw;
+        height: 100vh;
+        background: var(--yellow1);
+    }
+
+}

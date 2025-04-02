@@ -1,3 +1,4 @@
+import Home from "./Home";
 import "./styles/layout.scss";
 import { Outlet, useLocation } from "react-router-dom";
 
@@ -7,7 +8,7 @@ const Layout = () => {
 	return (
 		<>
 			{location.pathname === "/" ? (
-				<> landing page </>
+				<Home/>
 			) : (
 				<div className="layout">
 					<Outlet />
