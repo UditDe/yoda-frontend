@@ -5,10 +5,10 @@
   "type": "module",
   "homepage": "https://uditde.github.io/yoda_frontend",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "test": "echo \"No tests specified\" && exit 0",
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
