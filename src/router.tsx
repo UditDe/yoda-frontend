@@ -8,7 +8,7 @@ const routeConfig: RouteObject[] = [
     element: <Layout />,
     children: [
       {
-        path: "/yoda_frontend",
+        path: "/yoda-frontend",
         element: <Home/>
       },
       {

@@ -7,5 +7,5 @@ export default defineConfig({
   build: {
     outDir: "dist"  // Ensure Vite builds to 'dist/'
   },
-  base: "/yoda_frontend/" // Set base to match GitHub Pages URL
+  base: "/yoda-frontend/" // Set base to match GitHub Pages URL
 })
